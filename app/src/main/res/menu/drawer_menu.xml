@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/closedTicketMenu"
+
+        android:title="Closed Ticket"/>
+
+    <item android:id="@+id/remittanceMenu"
+
+        android:title="For Remittance"/>
+    <item android:id="@+id/archiveMenu"
+
+        android:title="Archive Ticket"/>
+    <item android:id="@+id/chatMenu"
+
+        android:title="Chat Box"/>
+
+
+
+
+</menu>

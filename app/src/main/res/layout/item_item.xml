@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="10dp"
+    android:id="@+id/rootRelativeLayout">
+
+
+    <LinearLayout
+        android:id="@+id/itemLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/itemNameTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Burger Steak"
+            android:textColor="#49505a"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/itemQtyTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="1"
+            android:textColor="#49505a"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/itemLinearLayout"/>
+
+</RelativeLayout>

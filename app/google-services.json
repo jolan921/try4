@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "241408610460",
+    "firebase_url": "https://mapabea-max.firebaseio.com",
+    "project_id": "mapabea-max",
+    "storage_bucket": "mapabea-max.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241408610460:android:7d6066aab74b341d8bdd59",
+        "android_client_info": {
+          "package_name": "mapabea.mapabea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241408610460-129trtju4gsu06v6rr67oavgkjc47dc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mapabea.mapabea",
+            "certificate_hash": "d7b4552b1e09bd8c669d1ba4874bc235335a596d"
+          }
+        },
+        {
+          "client_id": "241408610460-nks850g2cv3pfsq3frnli3ve5c90pjm4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGXHK40BdRrDuWUTJ6xVWE6ZYfMMloeaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241408610460-nks850g2cv3pfsq3frnli3ve5c90pjm4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

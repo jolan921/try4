@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_gray">#c85e585e</color>
+    <color name="color_black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="list_item2">#eeeff1</color>
+
+    <color name="loading_background">#7b62565a</color>
+    <color name="status_online">#63f542</color>
+    <color name="status_offline">#ff0000</color>
+    <color name="message_receive">#4099ff</color>
+    <color name="message_send">#ffffff</color>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/nameTextview"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_black"
+        android:text="This is a tex"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/messageCardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="6dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:id="@+id/messageLinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/messageTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_black"
+                android:text="This is a tex"/>
+
+            <TextView
+                android:id="@+id/messageTimestampTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_gray"
+                android:textSize="10sp"
+                android:layout_gravity="right"
+                android:text="09:12 PM"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
